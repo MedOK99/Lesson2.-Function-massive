@@ -7,8 +7,8 @@ int lastDigit = randomNumber % 10; // 56 % 10 = 6 (остаток от деле�
 int fisrtDigit = randomNumber / 10; // 56 / 10 = 5 (дробная часть отпадает)
  
 Console.WriteLine(randomNumber);
-Console.WriteLine($"First digit = {fisrtDigit}");
-Console.WriteLine($"Last digit = {lastDigit}");
+Console.WriteLine($"First digit = {fisrtDigit}"); // способ записи чисел через интерполяцию строк ($)
+Console.WriteLine($"Last digit = {lastDigit}"); // $ говорит терминалу что в{} находится переменная 
 if (fisrtDigit < lastDigit)
 {
     Console.WriteLine(lastDigit);

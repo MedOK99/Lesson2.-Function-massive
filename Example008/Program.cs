@@ -5,7 +5,9 @@
 
 
 Console.Clear();
+
 Console.WriteLine("Введите первое число: ");
+
 string firstDigitStr = Console.ReadLine()!;
 int firstDigit = int.Parse(firstDigitStr);
 
